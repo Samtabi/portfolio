@@ -1,0 +1,39 @@
+
+.thank-you-message {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .return-button {
+    background-color: #00BFFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    margin-top: 100px;
+  }
+  
+  .return-button:hover {
+    background-color: #0080FF;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .thank-you-message {
+      max-width: 90%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    .return-button {
+      font-size: 26px;
+      padding: 8px 16px;
+      margin-top: 50px;
+    }
+  }
+  
